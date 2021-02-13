@@ -1,3 +1,27 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "george.danforth.dev"
+theme = "tema"
+sectionPagesMenu = "main"
+
+[menu]
+  [[menu.main]]
+    name = "blog"
+    identifier = "blog"
+    url = "/blog/"
+    weight = -200
+  [[menu.main]]
+    name = "projects"
+    identifier = "projects"
+    url = "/projects/"
+    weight = -190
+  [[menu.main]]
+    name = "music"
+    identifier = "music"
+    url = "/music/"
+    weight = -180
+  [[menu.main]]
+    name = "contact"
+    identifier = "contact"
+    url = "/contact/"
+    weight = -170
